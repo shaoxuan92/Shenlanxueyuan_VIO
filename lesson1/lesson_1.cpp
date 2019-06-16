@@ -17,11 +17,11 @@ int main(int argc, char* [])
 	Sophus::SO3 SO3PoseUpdate = Converter::so32SO3(oPoseUpdate.GetUpateso3());
 	Sophus::SO3 SO3PoseUpdated = oPoseUpdate.UpdatePose(SO3Pose,SO3PoseUpdate);
 	//Update by quanternion
-	Eigen::Quaterniond QuanternionPose = Converter::RotationMatrix2Quaternion(mEigenPose);
+	Eigen::Quaterniond QuanternionPose = Converter::RotationMatrix2Quaternion(mEigenPose).normalized();
 	//Eigen::Quaterniond QuanternionPoseUpdate = Converter::so3Quaternion(oPoseUpdate.GetUpateso3());
-	Eigen::Quaterniond NewQuaterniondPoseUpdate = Eigen::Quaterniond(1,0.005,0.01,0.015);
+	Eigen::Quaterniond NewQuaterniondPoseUpdate = Eigen::Quaterniond(1,0.005,0.01,0.015).normalized();
 	Eigen::Quaterniond QuanternionPoseUpdated = oPoseUpdate.UpdatePose(QuanternionPose,NewQuaterniondPoseUpdate);
-	
+	QuanternionPoseUpdated.normalized();
 	//Results:
 	cout << "Update by SO3: " << endl << SO3PoseUpdated.matrix()<<endl;
 	cout << "Update by quanternion: " << endl<< Sophus::SO3(QuanternionPoseUpdated).matrix()<<endl;

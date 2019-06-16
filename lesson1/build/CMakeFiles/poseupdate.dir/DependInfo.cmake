@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lin/Documents/XaoSHuan/课件与作业/lesson_1.cpp" "/home/lin/Documents/XaoSHuan/课件与作业/build/CMakeFiles/poseupdate.dir/lesson_1.cpp.o"
+  "/home/lin/Documents/XaoSHuan/VIOStudy/lesson1/lesson_1.cpp" "/home/lin/Documents/XaoSHuan/VIOStudy/lesson1/build/CMakeFiles/poseupdate.dir/lesson_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

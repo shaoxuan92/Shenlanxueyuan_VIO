@@ -1,3 +1,3 @@
-/home/lin/Documents/XaoSHuan/课件与作业/build/CMakeFiles/edit_cache.dir
-/home/lin/Documents/XaoSHuan/课件与作业/build/CMakeFiles/poseupdate.dir
-/home/lin/Documents/XaoSHuan/课件与作业/build/CMakeFiles/rebuild_cache.dir
+/home/lin/Documents/XaoSHuan/VIOStudy/lesson1/build/CMakeFiles/edit_cache.dir
+/home/lin/Documents/XaoSHuan/VIOStudy/lesson1/build/CMakeFiles/poseupdate.dir
+/home/lin/Documents/XaoSHuan/VIOStudy/lesson1/build/CMakeFiles/rebuild_cache.dir

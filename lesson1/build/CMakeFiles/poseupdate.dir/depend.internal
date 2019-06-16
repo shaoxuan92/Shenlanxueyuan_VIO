@@ -4,9 +4,9 @@
 CMakeFiles/poseupdate.dir/lesson_1.cpp.o
  /home/lin/Desktop/js_308/Sophus/sophus/se3.h
  /home/lin/Desktop/js_308/Sophus/sophus/so3.h
- /home/lin/Documents/XaoSHuan/课件与作业/Converter.h
- /home/lin/Documents/XaoSHuan/课件与作业/PoseUpdate.h
- /home/lin/Documents/XaoSHuan/课件与作业/lesson_1.cpp
+ /home/lin/Documents/XaoSHuan/VIOStudy/lesson1/Converter.h
+ /home/lin/Documents/XaoSHuan/VIOStudy/lesson1/PoseUpdate.h
+ /home/lin/Documents/XaoSHuan/VIOStudy/lesson1/lesson_1.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

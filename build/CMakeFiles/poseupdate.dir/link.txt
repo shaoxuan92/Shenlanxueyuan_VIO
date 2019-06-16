@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/poseupdate.dir/lesson_1.cpp.o  -o poseupdate -rdynamic /home/lin/Desktop/js_308/Sophus/build/libSophus.so -Wl,-rpath,/home/lin/Desktop/js_308/Sophus/build 
